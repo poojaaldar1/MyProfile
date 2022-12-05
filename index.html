@@ -4,44 +4,86 @@
 <head>
     <title> Index Page </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
+<style>
+    header {
+        background-color: lightsteelblue;
+    }
+
+    body {
+        font-family: 'Josefin Sans',
+            sans-serif;
+        background-color: rgb(209, 237, 209);
+    }
+
+    .value {
+        padding-left: 5px;
+    }
+
+    .tag {
+        padding-right: 30px;
+        text-shadow: 4px 4px 4px cadetblue;
+    }
+
+    .nav {
+        padding: 5px;
+        border: 3px solid red;
+        text-shadow: 5px 4px 3px rgb(92, 183, 186);
+            }
+
+    .icon {
+        
+        background-color: rgb(227, 164, 164);
+        border: 60px;
+        border-radius: 20px;
+    }
+      
+</style>
 
 <body>
-    <header style="background-color:cadetblue;">
-
-        <i class="fa fa-user" aria-hidden="true" ></i> <b>Pooja Aldar</b>  &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i> <b>poojaaldar@gmail.com</b>  &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-mobile" aria-hidden="true"></i> <b>9096110126</b> 
+    <marquee behavior="sliding" direction="left" height="50px" width="600px">
+    <header>
+        <span class="tag">
+            <i class="fa fa-user" aria-hidden="true"></i><b class="value">Pooja Aldar</b></span>
+        <span class="tag">
+            <i class="fa fa-envelope" aria-hidden="true"></i><b class="value">poojaaldar@gmail.com</b></span>
+        <span class="tag">
+            <i class="fa fa-mobile" aria-hidden="true"></i><b class="value">9096110126</b></span>
 
     </header>
+</marquee>
     <br>
-    <br>&nbsp;&nbsp;
+    <br>
     <nav>
-        <a href="personal.html" target="My frame">Home</a>&nbsp;&nbsp;
-        <a href="techStack.html" target="My frame">TechStack</a>&nbsp;&nbsp;
-        <a href="education.html" target="My frame">Education</a>&nbsp;&nbsp;
-        <a href="professionalSummary.html" target="My frame">Professional Summary</a>&nbsp;&nbsp;
-        <a href="Project.html" target="My frame">Project</a>&nbsp;&nbsp;
-        <a href="myHobbies.html" target="My frame">Hobbies</a>&nbsp;&nbsp;
-        <a href="contactUs.html" target="My frame">Contact Us</a>
+        <span class="nav"><a href="personal.html" target="My frame">Home</a></span>
+        <span class="nav"><a href="techStack.html" target="My frame">TechStack</a></span>
+        <span class="nav"> <a href="education.html" target="My frame">Education</a></span>
+        <span class="nav"> <a href="professionalSummary.html" target="My frame">Professional Summary</a></span>
+        <span class="nav"><a href="Project.html" target="My frame">Project</a></span>
+        <span class="nav"> <a href="myHobbies.html" target="My frame">Hobbies</a></span>
+        <span class="nav"> <a href="contactUs.html" target="My frame">Contact Us</a></span>
     </nav>
     <hr>
-    <br>
     <iframe width="900" height="500" name="My frame" src="contactUs.html"> </iframe>
-    <br>
-    <br>
-    <footer>   
 
-        <b> Follow me</b>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"
-                aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook-square"
-                aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+
+    <footer>
+
+        <b> Follow me</b>
+        <span class="icon">
+            <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a></span>
+        <span class="icon">
+            <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin"
+                    aria-hidden="true"></i></a></span>
+        <span class="icon">
+            <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></span>
+        <span class="icon">
+            <a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook-square"
+                    aria-hidden="true"></i></a></span>
 
     </footer>
 
